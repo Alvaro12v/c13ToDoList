@@ -10,8 +10,6 @@ class Task:
         status = "completado" if self.completed else "pendiente"
         return f"{self.description} - {status}"
 
-
-
 class ToDoList:
     pass
 
