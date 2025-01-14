@@ -4,7 +4,7 @@ class Task:
         self.completed = False
 
     def complete(self):
-        self.completed = True
+        self.completed = True #Agregamos comentario para hacer otra prueba
 
     def __str__(self):
         estado = "completado" if self.completed else "pendiente"
