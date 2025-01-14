@@ -4,11 +4,11 @@ class Task:
         self.completed = False
 
     def complete(self):
-        self.completed = True
+        self.completed = True #Agregamos comentario para hacer otra prueba
 
     def __str__(self):
-        status = "completado" if self.completed else "pendiente"
-        return f"{self.description} - {status}"
+        estado = "completado" if self.completed else "pendiente"
+        return f"{self.description} - {estado}"
 
 class ToDoList:
     pass
